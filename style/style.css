@@ -21,10 +21,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #333;
+    flex-direction: column;
 }
 
 .clock{
-    width: 30rem;
+    width: 28rem;
     height: 10rem;
     background-color: #222;
     display: flex;
@@ -43,10 +44,16 @@ body{
 
 .clock p{
     font-family: "Doto", serif;
-    color: #f1934f;
+    color: #f27e2b;
     font-size: 4rem;
     text-transform:uppercase;
 }
 
+.greeting{
+    margin-top: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
