@@ -1,6 +1,5 @@
-let clockTime = document.querySelector('.clockTime')
-let clockAMorPm = document.querySelector('.clockAMorPm')
+let curTime = document.getElementById('curTime')
 
-let time = new Date().toLocaleTimeString()
-
-
+setInterval(() => {
+    curTime.innerText = new Date().toLocaleTimeString()
+}, 1000);
