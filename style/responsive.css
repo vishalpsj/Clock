@@ -1,0 +1,17 @@
+/* mobile first approach */
+
+@media (min-width:320px){
+    html{
+        font-size: 62.5%;
+    }
+}
+@media (min-width:425px){
+    html{
+        font-size: 80%;
+    }
+}
+@media (min-width:768px){
+    html{
+        font-size: 100%;
+    }
+}
